@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import bahlogo from '../../assets/bahlogo.jpg';
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements';
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavContact } from './NavbarElements';
 import {animateScroll as scroll} from 'react-scroll';
 
 const Navbar = ({ toggle }) => {
@@ -36,22 +36,22 @@ const Navbar = ({ toggle }) => {
                     <FaBars />
                 </MobileIcon>
                 <NavMenu>
+
                     <NavItem>
-                      <NavLinks>Buy</NavLinks>
+                      <NavLinks>Home</NavLinks>
                     </NavItem>
                     <NavItem>
-                      <NavLinks>Sell</NavLinks>
+                      <NavLinks>Services</NavLinks>
                     </NavItem>
                     <NavItem>
                       <NavLinks>About</NavLinks>
                     </NavItem>
-                    <NavItem>
-                      <NavLinks>Contact</NavLinks>
-                    </NavItem>
                 </NavMenu>
-          <NavBtn>
-                <NavBtnLink to="/signin">Sign In</NavBtnLink>
-                </NavBtn>
+
+                    <NavContact>
+                      <NavLinks>Contact</NavLinks>
+                    </NavContact>
+
     </NavbarContainer>
     </Nav>
     </IconContext.Provider>

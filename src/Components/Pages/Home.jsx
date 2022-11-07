@@ -4,7 +4,7 @@ import Section2 from "../HomeSections/Section2";
 // import Section3 from "./Sections/Section3";
 // import Section4 from "./Sections/Section4";
 // import Section5 from "./Sections/Section5";
-// import Footer from "./Sections/Footer";
+import Footer from "../Footer/Footer";
 import Navbar from '../Navbar/Navbar';
 
 const Home = () => {
@@ -22,7 +22,7 @@ const Home = () => {
       {/* <Section3 /> */}
       {/* <Section4 /> */}
       {/* <Section5 /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

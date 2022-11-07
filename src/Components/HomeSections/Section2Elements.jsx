@@ -3,16 +3,14 @@ import styled from "styled-components";
 export const Section2Container = styled.div`
     display: grid;
     grid-template-columns: 30% 15% 55%;
-    margin-top: 4rem;   
-    justify-items: center;
+    margin-top: 4rem;
 `
 
 export const Section2ImgContainer = styled.div`
     grid-column: 1/3;
     grid-row: 1/3;
-    margin: 2rem;
-    position: relative;
-    
+    display: flex; 
+    background-size: cover;
 `
 
 export const Section2Img = styled.div`

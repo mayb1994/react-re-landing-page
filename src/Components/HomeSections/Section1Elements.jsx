@@ -6,6 +6,7 @@ export const Section1Container = styled.div`
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-rows: 70% 25% 5%;
+    margin-top: -31px;
 
     @media screen and (max-width: 768px) {
         grid-template-columns: 60% 40%;
@@ -287,6 +288,7 @@ export const HeroImgContainer = styled.div`
     grid-column: 1/3;
     width: 93%;
     height: 95%;
+    margin-top: 27px;
     background-image: url(${courthouse});
     box-shadow: 2px 2px 8px 3px #000000;
     background-size: cover;
